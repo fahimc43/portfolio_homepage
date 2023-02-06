@@ -5,7 +5,7 @@ import Bio from "../components/Bio";
 function Home() {
   return (
     <>
-      <Container maxW="container.md" pt={24}>
+      <Container maxW="container.md">
         <Bio />
       </Container>
     </>

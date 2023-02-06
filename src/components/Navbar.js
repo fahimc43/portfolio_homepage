@@ -20,22 +20,6 @@ import { IoLogoGithub } from "react-icons/io5";
 import ToggleButton from "./ToggleButton";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
-// const LinkItem = ({ to, children, isActive }) => {
-//   const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
-
-//   return (
-//     <NavLink to={to}>
-//       <Link
-//         p={2}
-//         bg={isActive ? "grassTeal" : undefined}
-//         color={isActive ? "#202023" : inactiveColor}
-//       >
-//         {children}
-//       </Link>
-//     </NavLink>
-//   );
-// };
-
 const LinkItem = (props) => (
   <RouterLink
     {...props}

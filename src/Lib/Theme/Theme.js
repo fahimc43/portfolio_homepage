@@ -40,10 +40,10 @@ const fonts = {
 //   grassTeal: "#88ccca",
 // };
 
-// const config = {
-//   initialColorMode: "dark",
-//   useSystemColorMode: true,
-// };
+const config = {
+  initialColorMode: "dark",
+  useSystemColorMode: true,
+};
 
-const theme = extendTheme({ components, styles, fonts });
+const theme = extendTheme({ components, styles, fonts, config });
 export default theme;

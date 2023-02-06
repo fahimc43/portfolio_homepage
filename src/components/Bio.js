@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 import Section from "./Section";
 import styled from "@emotion/styled";
 import { ChevronRightIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const Paragraph = styled.p`
   text-align: justify;
@@ -35,8 +36,8 @@ const talkAbout = [
   "RESTful APIs",
   "HTML",
   "CSS",
-  "Gatsby",
-  "Svelte",
+  // "Gatsby",
+  // "Svelte",
 ];
 
 function Bio() {
@@ -114,18 +115,20 @@ function Bio() {
           </Heading>
           <Paragraph>
             I create relevant websites and web apps to make the internet a
-            better place.The technologies I work with are JavaScript, HTML and
-            CSS with a focus on the frameworks React.js, Next.js, Node and
-            Express. I use code not only to do my day-to-day job, but also to
-            solve everyday problems I come across. When I am not writing code I
-            like to spend time watching movie and hanging out with my friends.
+            better place. The technologies I work with are JavaScript,
+            TypeScript focused on React.js, Node.js, and Express.js, MongoDB. I
+            use code not only to do my day-to-day job, but also to solve
+            everyday problems I come across. When I am not writing code I like
+            to spend time watching movie and hanging out with my friends.
             Products, websites, tech demos — I love using my technical skills to
             build cool & interesting things.
           </Paragraph>
           <Box align="center" my={4}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
+            <Link to="/works">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                My portfolio
+              </Button>
+            </Link>
           </Box>
         </Section>
       </Container>
