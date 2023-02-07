@@ -30,14 +30,15 @@ const talkAbout = [
   "React",
   "JavaScript",
   "TypeScript",
+  "NodeJs",
+  "ExpressJs",
+  "MongoDB",
   "GraphQL",
   "Redux",
   "Next.js",
   "RESTful APIs",
   "HTML",
   "CSS",
-  // "Gatsby",
-  // "Svelte",
 ];
 
 function Bio() {
@@ -59,8 +60,8 @@ function Bio() {
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
           css={{ backdropFilter: "blur(10px)" }}
         >
-          I&apos;m a passionate Web Developer, my area of expertise are
-          front-end development. You can talk to me about{" "}
+          I&apos;m a passionate Web Developer, my area of expertise are MERN
+          Stack web development. You can talk to me about{" "}
           <Typed
             loop
             typeSpeed={80}
@@ -80,7 +81,7 @@ function Bio() {
             <Heading as="h2" variant="page-title">
               Fahim Chowdhury
             </Heading>
-            <p>Digital Maker ( Developer / Designer )</p>
+            <p>Digital Maker ( Developer / Builder )</p>
           </Box>
           <Box
             flexShrink={0}

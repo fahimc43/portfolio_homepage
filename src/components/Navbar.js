@@ -76,15 +76,15 @@ function Navbar() {
             Blogs
           </Link>
           <Link
-            as={LinkItem}
-            to="/"
+            as={Link}
+            href="https://github.com/fahimchowdhury43"
             display="flex"
             alignItems="center"
             gap={2}
             p={2}
           >
             <IoLogoGithub />
-            Source
+            GitHub
           </Link>
         </Stack>
 
@@ -109,8 +109,8 @@ function Navbar() {
                 <MenuItem as={MenuLink} to="/blogs">
                   blogs
                 </MenuItem>
-                <MenuItem as={MenuLink} to="/">
-                  View Source
+                <MenuItem as={Link} href="https://github.com/fahimchowdhury43">
+                  GitHub
                 </MenuItem>
               </MenuList>
             </Menu>

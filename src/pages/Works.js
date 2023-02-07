@@ -4,7 +4,10 @@ import { Container, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 import Section from "../components/Section";
 import { WorkGridItem } from "../components/GridItem";
 
-import testPhoto from "../Lib/images/testphoto.jfif";
+import lawfirm from "../Lib/images/lawfirm.png";
+import raintreebooks from "../Lib/images/raintreebooks.png";
+import expensesTrucker from "../Lib/images/expensesTrucker.png";
+import weatherApp from "../Lib/images/weatherApp.png";
 import LayoutArticle from "../components/LayoutArticle";
 
 function Works() {
@@ -20,43 +23,44 @@ function Works() {
               <WorkGridItem
                 id="law_firm"
                 title="Law Firm App"
-                thumbnail={testPhoto}
+                thumbnail={lawfirm}
               >
-                consectetur adipisicing elit. Rem repudiandae eaque magni iste
-                expedita doloribus.
+                A legal service related full stack web application. Users and
+                admins can manage their activities, with role based
+                authentication system.
               </WorkGridItem>
             </Section>
             <Section delay={0.2}>
               <WorkGridItem
                 id="raintree_book_shop"
                 title="Raintree Book Shop "
-                thumbnail={testPhoto}
+                thumbnail={raintreebooks}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe,
-                quibusdam quaerat tenetur porro eos optio ullam perspiciatis
-                nobis.
+                A simple and Interactive shopping cart. We will be able to
+                change the product quantity and price dynamically. I know how to
+                improve e-commerce related site.
               </WorkGridItem>
             </Section>
             <Section delay={0.3}>
               <WorkGridItem
-                id="expense_tracker_app"
-                title="Expense Tracker App"
-                thumbnail={testPhoto}
+                id="expenses_tracker_app"
+                title="Expenses Tracker App"
+                thumbnail={expensesTrucker}
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-                cumque, excepturi voluptates voluptatum neque quas perspiciatis
-                sapiente eius?
+                The expense tracker app is likely to be a good one for trucking
+                our expenses. We can track our expenses by interacting with a
+                different year.
               </WorkGridItem>
             </Section>
             <Section delay={0.4}>
               <WorkGridItem
                 id="weather_app"
                 title="Weather App"
-                thumbnail={testPhoto}
+                thumbnail={weatherApp}
               >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Nostrum nisi, possimus sapiente illum eum earum ratione. Et,
-                similique.
+                The app integrates with API sources to provide the country base
+                weather report. It also gives us local weather updates with
+                temperature, wind speed and weather symbol.
               </WorkGridItem>
             </Section>
           </SimpleGrid>
