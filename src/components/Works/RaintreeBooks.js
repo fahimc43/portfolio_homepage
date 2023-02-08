@@ -44,7 +44,7 @@ function RaintreeBooks() {
                 Live Link
               </Badge>
 
-              <Link href="https://raintree-book-shop.web.app/">
+              <Link href="https://raintree-book-shop.web.app/" target="_blank">
                 https://raintree-book-shop.web.app/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>
@@ -59,7 +59,10 @@ function RaintreeBooks() {
               <Badge colorScheme="green" mr={2}>
                 Git Source
               </Badge>
-              <Link href="https://github.com/fahimchowdhury43/raintree_books_client_new/">
+              <Link
+                href="https://github.com/fahimchowdhury43/raintree_books_client_new/"
+                target="_blank"
+              >
                 https://github.com/fahimchowdhury43/raintree_books_client_new/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>

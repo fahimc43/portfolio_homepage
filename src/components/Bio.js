@@ -6,6 +6,9 @@ import {
   Image,
   useColorModeValue,
   Button,
+  List,
+  ListItem,
+  Link,
 } from "@chakra-ui/react";
 import Typed from "react-typed";
 import profilePhoto from "../Lib/images/fahimPhoto.jpg";
@@ -13,7 +16,8 @@ import { motion } from "framer-motion";
 import Section from "./Section";
 import styled from "@emotion/styled";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import { Link } from "react-router-dom";
+import { Link as RoutLink } from "react-router-dom";
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 const Paragraph = styled.p`
   text-align: justify;
@@ -40,6 +44,18 @@ const talkAbout = [
   "HTML",
   "CSS",
 ];
+
+const bioSection = {
+  paddingLeft: "3.4em",
+  textIndent: "-3.4em",
+};
+
+const marker = { fontWeight: "bold", marginRight: "1em" };
+const paragraph = {
+  textAlign: "justify",
+  textIndent: "1em",
+  hyphens: "auto",
+};
 
 function Bio() {
   return (
@@ -125,9 +141,89 @@ function Bio() {
             build cool & interesting things.
           </Paragraph>
           <Box align="center" my={4}>
-            <Link to="/works">
+            <RoutLink to="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My portfolio
+              </Button>
+            </RoutLink>
+          </Box>
+        </Section>
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Bio
+          </Heading>
+          <Box style={bioSection}>
+            <span style={marker}>[**]</span>I live in Dhaka my childhood
+            memorable place in Sirajganj. (Bangladesh)
+          </Box>
+          <Box style={bioSection}>
+            <span style={marker}>[**]</span>
+            Completed the Masters program in Management at National university,
+            Bangladesh.
+          </Box>
+          <Box style={bioSection}>
+            <span style={marker}>[**]</span>
+            Completed the Web Development Course Batch-3 2021 at Programming
+            Hero with Jhankar mahbub.
+          </Box>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            I ♥
+          </Heading>
+          <p style={paragraph}>
+            Art, Music, Traveling, Video game, Movie, Book.
+          </p>
+        </Section>
+        <Section delay={0.4}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/fahimchowdhury43" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  @fahimchowdhury43
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/fahimchowdhury43/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoLinkedin />}
+                >
+                  @fahimchowdhury43
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/FahimCh86229381/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoTwitter />}
+                >
+                  @FahimCh86229381
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+          <Box align="center" my={4}>
+            <Link
+              href="https://drive.google.com/file/d/1PI2dHjFr8-L8mFIyyMvCPEhqHwQAEZov/view"
+              target="_blank"
+            >
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                My Resume
               </Button>
             </Link>
           </Box>

@@ -1,6 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { Container, Heading, SimpleGrid, Text } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/Section";
 import { WorkGridItem } from "../components/GridItem";
 
@@ -47,7 +46,7 @@ function Works() {
                 title="Expenses Tracker App"
                 thumbnail={expensesTrucker}
               >
-                The expense tracker app is likely to be a good one for trucking
+                The expense tracker app is likely to be a good one for tracking
                 our expenses. We can track our expenses by interacting with a
                 different year.
               </WorkGridItem>

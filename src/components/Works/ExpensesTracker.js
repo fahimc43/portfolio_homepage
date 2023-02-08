@@ -27,15 +27,15 @@ function ExpensesTracker() {
               <ChevronRightIcon />{" "}
             </span>
             <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
-              Raintree book shop <Badge>e-commerce</Badge>
+              Expenses Tracker <Badge>Web app</Badge>
             </Heading>
           </Box>
           <p
             style={{ textAlign: "justify", textIndent: "1em", hyphens: "auto" }}
           >
-            A simple and Interactive shopping cart. We will be able to change
-            the product quantity and price dynamically. I know how to improve
-            e-commerce related site.
+            The expense tracker app is likely to be a good one for tracking our
+            expenses. We can track our expenses by interacting with a different
+            year.
           </p>
           <List ml={4} my={4}>
             <ListItem>
@@ -43,7 +43,7 @@ function ExpensesTracker() {
                 Live Link
               </Badge>
 
-              <Link href="https://expensestrucker.netlify.app/">
+              <Link href="https://expensestrucker.netlify.app/" target="_blank">
                 https://expensestrucker.netlify.app/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>
@@ -58,7 +58,10 @@ function ExpensesTracker() {
               <Badge colorScheme="green" mr={2}>
                 Git Source
               </Badge>
-              <Link href="https://github.com/fahimchowdhury43/expenses-trucker/">
+              <Link
+                href="https://github.com/fahimchowdhury43/expenses-trucker/"
+                target="_blank"
+              >
                 https://github.com/fahimchowdhury43/expenses-trucker/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>

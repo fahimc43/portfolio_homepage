@@ -46,7 +46,7 @@ function LawFirmApp() {
                 Live Link
               </Badge>
 
-              <Link href="https://law-firm-d6e55.web.app/">
+              <Link href="https://law-firm-d6e55.web.app/" target="_blank">
                 https://law-firm-d6e55.web.app/ <ExternalLinkIcon mx="2px" />
               </Link>
             </ListItem>
@@ -60,7 +60,10 @@ function LawFirmApp() {
               <Badge colorScheme="green" mr={2}>
                 Git Source
               </Badge>
-              <Link href="https://github.com/fahimchowdhury43/law-firm-client/">
+              <Link
+                href="https://github.com/fahimchowdhury43/law-firm-client/"
+                target="_blank"
+              >
                 https://github.com/fahimchowdhury43/law-firm-client/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>

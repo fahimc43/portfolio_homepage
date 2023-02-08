@@ -21,3 +21,21 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     </LinkBox>
   </Box>
 );
+
+export const BlogGridItem = ({ children, href, title, thumbnail }) => (
+  <Box w="100%" textAlign="center">
+    <LinkBox cursor="pointer">
+      <Image
+        src={thumbnail}
+        alt={title}
+        style={{ borderRadius: "12px" }}
+        placeholder="blur"
+        loading="lazy"
+      />
+      <LinkOverlay href={href} target="_blank">
+        <Text mt={2}>{title}</Text>
+      </LinkOverlay>
+      <Text fontSize={14}>{children}</Text>
+    </LinkBox>
+  </Box>
+);

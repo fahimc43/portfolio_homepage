@@ -78,6 +78,7 @@ function Navbar() {
           <Link
             as={Link}
             href="https://github.com/fahimchowdhury43"
+            target="_blank"
             display="flex"
             alignItems="center"
             gap={2}
@@ -109,7 +110,11 @@ function Navbar() {
                 <MenuItem as={MenuLink} to="/blogs">
                   blogs
                 </MenuItem>
-                <MenuItem as={Link} href="https://github.com/fahimchowdhury43">
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/fahimchowdhury43"
+                  target="_blank"
+                >
                   GitHub
                 </MenuItem>
               </MenuList>

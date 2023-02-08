@@ -44,7 +44,7 @@ function WeatherApp() {
                 Live Link
               </Badge>
 
-              <Link href="https://weatherwebapps2.netlify.app/">
+              <Link href="https://weatherwebapps2.netlify.app/" target="_blank">
                 https://weatherwebapps2.netlify.app/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>
@@ -59,7 +59,10 @@ function WeatherApp() {
               <Badge colorScheme="green" mr={2}>
                 Git Source
               </Badge>
-              <Link href="https://github.com/fahimchowdhury43/weather-app/">
+              <Link
+                href="https://github.com/fahimchowdhury43/weather-app/"
+                target="_blank"
+              >
                 https://github.com/fahimchowdhury43/weather-app/{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>
