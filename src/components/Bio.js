@@ -219,7 +219,7 @@ function Bio() {
           </List>
           <Box align="center" my={4}>
             <Link
-              href="https://drive.google.com/file/d/1PI2dHjFr8-L8mFIyyMvCPEhqHwQAEZov/view"
+              href="https://drive.google.com/file/d/1flZEJ-1b4N0i7NJOnOJRj6kOE1AVZjx4/view"
               target="_blank"
             >
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
