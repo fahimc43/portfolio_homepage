@@ -4,7 +4,7 @@ import Section from "../components/Section";
 import { WorkGridItem } from "../components/GridItem";
 
 import lawfirm from "../Lib/images/lawfirm.png";
-import raintreebooks from "../Lib/images/raintreebooks.png";
+import lms from "../Lib/images/lms-cover.png";
 import expensesTrucker from "../Lib/images/expensesTrucker.png";
 import weatherApp from "../Lib/images/weatherApp.png";
 import LayoutArticle from "../components/LayoutArticle";
@@ -31,13 +31,13 @@ function Works() {
             </Section>
             <Section delay={0.2}>
               <WorkGridItem
-                id="raintree_book_shop"
-                title="Raintree Book Shop "
-                thumbnail={raintreebooks}
+                id="learning_management_system"
+                title="Learning Management"
+                thumbnail={lms}
               >
-                A simple and Interactive shopping cart. We will be able to
-                change the product quantity and price dynamically. I know how to
-                improve e-commerce related site.
+                The website is designed to be mobile-friendly and accessible to
+                users with disabilities. touch-enabled carousel or slider
+                component for displaying course content or other information.
               </WorkGridItem>
             </Section>
             <Section delay={0.3}>

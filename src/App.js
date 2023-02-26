@@ -24,7 +24,10 @@ function App() {
         <Route path="/works" element={<Works />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/works/law_firm" element={<LawFirmApp />} />
-        <Route path="/works/raintree_book_shop" element={<RaintreeBooks />} />
+        <Route
+          path="/works/learning_management_system"
+          element={<RaintreeBooks />}
+        />
         <Route
           path="/works/expenses_tracker_app"
           element={<ExpensesTracker />}

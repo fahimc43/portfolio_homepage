@@ -12,11 +12,13 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
           placeholder="blur"
         />
         <LinkOverlay as="div">
-          <Text mt={2} fontSize={20}>
+          <Text textAlign={["left"]} mt={2} fontSize={20}>
             {title}
           </Text>
         </LinkOverlay>
-        <Text fontSize={14}>{children}</Text>
+        <Text textAlign={["left"]} fontSize={14}>
+          {children}
+        </Text>
       </Link>
     </LinkBox>
   </Box>

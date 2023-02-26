@@ -13,8 +13,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import LayoutArticle from "../LayoutArticle";
 
-import screen1 from "../../Lib/images/screencapture-raintree-book-shop-1.png";
-import screen2 from "../../Lib/images/screencapture-raintree-book-shop-2.png";
+import screen1 from "../../Lib/images/screencapture-lms-app-1.png";
+import screen2 from "../../Lib/images/screencapture-lms-app-2.png";
 
 function RaintreeBooks() {
   return (
@@ -28,15 +28,16 @@ function RaintreeBooks() {
               <ChevronRightIcon />{" "}
             </span>
             <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
-              Raintree book shop <Badge>e-commerce</Badge>
+              Learning Management System <Badge>webapp</Badge>
             </Heading>
           </Box>
           <p
             style={{ textAlign: "justify", textIndent: "1em", hyphens: "auto" }}
           >
-            A simple and Interactive shopping cart. We will be able to change
-            the product quantity and price dynamically. I know how to improve
-            e-commerce related site.
+            The website is designed to be mobile-friendly and accessible to
+            users with disabilities. SwiperJS is used to create a responsive,
+            touch-enabled carousel or slider component for displaying course
+            content or other information.
           </p>
           <List ml={4} my={4}>
             <ListItem>
@@ -44,26 +45,25 @@ function RaintreeBooks() {
                 Live Link
               </Badge>
 
-              <Link href="https://raintree-book-shop.web.app/" target="_blank">
-                https://raintree-book-shop.web.app/{" "}
-                <ExternalLinkIcon mx="2px" />
+              <Link href="https://lms-app-e1b8b.web.app/" target="_blank">
+                https://lms-app-e1b8b.web.app/ <ExternalLinkIcon mx="2px" />
               </Link>
             </ListItem>
             <ListItem>
               <Badge colorScheme="green" mr={2}>
                 Technologies
               </Badge>
-              <span>ReactJS, NodeJS, MongoDB, Tailwind</span>
+              <span>React js, React router-6, Tailwind CSS, Swiper Js</span>
             </ListItem>
             <ListItem>
               <Badge colorScheme="green" mr={2}>
                 Git Source
               </Badge>
               <Link
-                href="https://github.com/fahimchowdhury43/raintree_books_client_new/"
+                href="https://github.com/fahimchowdhury43/lms_client"
                 target="_blank"
               >
-                https://github.com/fahimchowdhury43/raintree_books_client_new/{" "}
+                https://github.com/fahimchowdhury43/lms_client{" "}
                 <ExternalLinkIcon mx="2px" />
               </Link>
             </ListItem>
