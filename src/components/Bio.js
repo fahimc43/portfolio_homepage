@@ -37,12 +37,12 @@ const talkAbout = [
   "NodeJs",
   "ExpressJs",
   "MongoDB",
-  "GraphQL",
   "Redux",
   "Next.js",
   "RESTful APIs",
   "HTML",
   "CSS",
+  "OOP",
 ];
 
 const bioSection = {
@@ -76,8 +76,8 @@ function Bio() {
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
           css={{ backdropFilter: "blur(10px)" }}
         >
-          I&apos;m a passionate Web Developer, my area of expertise are MERN
-          Stack web development. You can talk to me about{" "}
+          I&apos;m a passionate Web Developer, my area of expertise are
+          front-end web development. You can talk to me about{" "}
           <Typed
             loop
             typeSpeed={80}
@@ -132,13 +132,13 @@ function Bio() {
           </Heading>
           <Paragraph>
             I create relevant websites and web apps to make the internet a
-            better place. The technologies I work with are JavaScript,
-            TypeScript focused on React.js, Node.js, and Express.js, MongoDB. I
-            use code not only to do my day-to-day job, but also to solve
-            everyday problems I come across. When I am not writing code I like
-            to spend time watching movie and hanging out with my friends.
-            Products, websites, tech demos — I love using my technical skills to
-            build cool & interesting things.
+            better place. I have gained a solid foundation in Frontend
+            development. I am strategic and goal-oriented and always work with
+            an end goal in mind, always focusing on learning new technology.
+            When I am not writing code I like to spend time watching movies and
+            hanging out with my friends and family. Products, websites, tech
+            demos — I love using my technical skills to build cool & interesting
+            things.
           </Paragraph>
           <Box align="center" my={4}>
             <RoutLink to="/works">
@@ -158,7 +158,7 @@ function Bio() {
           </Box>
           <Box style={bioSection}>
             <span style={marker}>[**]</span>
-            Completed the Masters program in Management at National university,
+            Completed the Bachelor program in Management at National university,
             Bangladesh.
           </Box>
           <Box style={bioSection}>
